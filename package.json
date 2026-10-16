@@ -11,6 +11,10 @@
     "example:rag:deterministic": "tsx example/rag/deterministic-chain.ts",
     "example:mcp": "tsx example/mcp/handbook-server.ts",
     "example:mcp:demo": "tsx example/mcp/handbook-demo-client.ts",
+    "la:check": "tsx learning-assistant/check-index.ts",
+    "la:ingest": "tsx learning-assistant/ingest.ts",
+    "la:ask": "tsx learning-assistant/ask.ts",
+    "la:test": "tsx learning-assistant/test-questions.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
@@ -19,6 +23,7 @@
     "@modelcontextprotocol/sdk": "^1.32.1",
     "@pinecone-database/pinecone": "^9.0.0",
     "openai": "^7.28.0",
+    "pdf-parse": "^2.4.5",
     "zod": "^4.6.5"
   },
   "devDependencies": {
